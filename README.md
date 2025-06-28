@@ -28,8 +28,6 @@ The data resides in a relational schema with the following key tables:
 •	**Dim_Location:** Location details (state, ZIP code, etc.)
 
 •	**Fact_Transactions:** Sales data including quantity, date, price, model ID, and customer ID
-
-Although actual data isn't available initially, a schema creation script is provided, and sample queries must be tested on this simulated structure.
 ________________________________________
 **Data Understanding:**
 Each fact transaction links multiple dimensions:
